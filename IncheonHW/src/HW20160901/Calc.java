@@ -12,5 +12,7 @@ public class Calc {
 		int num2 = sc.nextInt();
 		
 		System.out.println(num1  + " + " + num2 + " = " + (num1 + num2));
+		
+		sc.close();
 	}
 }

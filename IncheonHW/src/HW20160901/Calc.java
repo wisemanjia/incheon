@@ -3,6 +3,8 @@ package HW20160901;
 import java.util.Scanner;
 
 public class Calc {
+	// 계산기
+	// 박상훈
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		

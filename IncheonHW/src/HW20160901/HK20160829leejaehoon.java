@@ -6,7 +6,7 @@ public class HK20160829leejaehoon {
 public static void main(String[] args) {
 		
 		
-		//1. ArrayList
+		//1. ArrayList 
 		 
 		ArrayList<Integer> su = new ArrayList<Integer>();
 		

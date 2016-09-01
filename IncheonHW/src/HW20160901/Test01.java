@@ -12,14 +12,21 @@ public class Test01 {
 			System.out.println("값 b를 입력하세요");
 			b = sc.nextInt();
 			if (b < a) {
+
 				int temp = a;
 				a = b;
 				b = temp;
+
+			}
+			if (a == b) {
+				System.out.println(0);
 			}
 			for (int i = a; i <= b; i++) {
 
 				System.out.print(i + " ");
-			}System.out.println("");
+			}
+
+			System.out.println("");
 		}
 	}
 }

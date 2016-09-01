@@ -4,7 +4,7 @@ public class HW20160901 {
 
 	public static void main(String[] args) {
 		System.out.println("fdsaf");
-		// 9¿ù 1ÀÏ ¼öÁ¤
+		// utf8ë¡œ ë³€ê²½í›„ 9.1 ìˆ˜ì •
 	}
 
 }

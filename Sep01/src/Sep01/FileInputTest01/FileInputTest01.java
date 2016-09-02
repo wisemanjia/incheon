@@ -36,9 +36,14 @@ public class FileInputTest01 {
 		}
 */
 		
-		System.out.println(als.get(0));
-		System.out.println(als.get(1));
-		System.out.println(als.get(2));
+		name = als.get(0).substring(5);
+		pw = als.get(1).substring(5);
+		email = als.get(2).substring(8);
+		//System.out.println(name + pw + email);
+		String end = "입니다.";
+		System.out.println("아이디는 " + name + end);
+		System.out.println("비밀번호는 " + pw + end);
+		System.out.println("이메일은 "+ email + end);
 	}
 
 }

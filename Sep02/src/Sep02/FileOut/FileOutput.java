@@ -35,9 +35,12 @@ public class FileOutput {
 			String subTxt = "id : " + id + next 
 							+ "pw : " + pw + next
 							+ "email : " + email + next;
-			out.write(subTxt.getBytes());
-			file.write(str, 0, str.length());
-	        file.newLine();
+			System.out.println(subTxt.getBytes());
+			
+			//out.write(subTxt.getBytes());
+			out.write(subTxt.getBytes(), 0, subTxt.length());
+			//file.write(str, 0, str.length());
+	        //file.newLine();
 			out.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
